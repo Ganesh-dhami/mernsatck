@@ -1,0 +1,95 @@
+.addproduct {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .addproduct-itemfield {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addproduct-itemfield p {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .addproduct-itemfield input,
+  .addproduct-itemfield select {
+    padding: 0.8rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+  }
+  
+  .addproduct-itemfield input:focus,
+  .addproduct-itemfield select:focus {
+    border-color: #6c63ff;
+    outline: none;
+  }
+  
+  .addproduct-price {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
+  .product-itemfield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #ccc;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+  }
+  
+  .addproduct-thumnail-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .addproduct-btn {
+    padding: 1rem 2rem;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addproduct-btn:hover {
+    background-color: #5750d5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .addproduct {
+      padding: 1rem;
+    }
+  
+    .addproduct-price {
+      flex-direction: column;
+    }
+  
+    .addproduct-btn {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .product-itemfield {
+      padding: 1rem;
+    }
+  }
+  

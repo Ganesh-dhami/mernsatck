@@ -1,0 +1,88 @@
+/* Offers.css */
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offers-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .offers-left h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .offers-left p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .offers-left button {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .offers-left button:hover {
+    background-color: #e5533f;
+  }
+  
+  .offers-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .offers-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .offers {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .offers-left {
+      margin-bottom: 20px;
+    }
+  
+    .offers-left h1 {
+      font-size: 28px;
+    }
+  
+    .offers-left p {
+      font-size: 16px;
+    }
+  
+    .offers-left button {
+      font-size: 14px;
+      padding: 12px 25px;
+    }
+  
+    .offers-right img {
+      max-width: 80%;
+    }
+  }
+  
